@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Poppins, Arial, Helvetica, monospace, sans-serif;
+  background-color: #FFFACD;
+}
+
+#title {
+  font-size: 4rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 2.5rem;
+}
+
+.county {
+  stroke: black;
+  stroke-width: 0.1;
+}
+
+.county:hover {
+  stroke: red;
+  stroke-width: 1;
+}
+
+#tooltip {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  background-color: #A9A9A9;
+  top: 120px;
+  left: 600px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
